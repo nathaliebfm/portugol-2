@@ -14,6 +14,6 @@ programa
 			
 		enquanto(num < 1)
 		}
-		escreva("\nA soma é ", soma)
+		escreva("\nA soma é de todos os valores até ", num, " é de ", soma)
 	}
 }

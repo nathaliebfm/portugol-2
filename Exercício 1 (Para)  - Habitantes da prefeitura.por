@@ -10,22 +10,22 @@ inclua biblioteca Matematica-->mat
 		inteiro filhos, mediafilhos
 
 		
-		para(x=1;x<=20;x++){ //MUDAR PARA 20
+		para(x=1;x<=20;x++){
 			escreva("\nQual o seu salário? ")
 			leia(salario)
 			escreva("\nQuantos filhos você tem? ")
 			leia(filhos)
 			somasalario += salario
 			somafilhos += filhos
-			maiorsalario = mat.maior_numero(salario,20) //MUDAR PARA 20
+			maiorsalario = mat.maior_numero(salario,20)
 			se (salario <= 100){
 				contsalario++
 			}
 	
 		}
 		limpa()
-		mediasalario = somasalario/20 //MUDAR PARA 20
-		percentual = (contsalario/20)*100 //MUDAR PARA 20
+		mediasalario = somasalario/20
+		percentual = (contsalario/20)*100
 		escreva("\nA média de salário da população é de ", mat.arredondar(mediasalario,2), " reais.")
 		mediafilhos = somafilhos/20
 		escreva("\nA média do número de filhos é de ", mediafilhos, " filhos.")
